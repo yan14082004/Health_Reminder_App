@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Health Reminder App</string>
+    <string name="activity_main_usuario">Usuário</string>
+    <string name="activity_main_senha">senha</string>
+    <string name="activity_main_entrar">Entrar</string>
+    <string name="activity_main_cadastrar">Cadastrar-se</string>
+    <string name="activity_main_esqueci_a_senha">Esqueci a Senha</string>
+    <string name="activity_main_falha_autenticacao">Usuário ou senha incorreto!</string>
+
+    <string name="activity_tela_selecao_cadastro">Cadastrar Paciente</string>
+    <string name="activity_tela_selecao_listar">Ver Pacientes</string>
+
+    <string name="activity_tela_lista_pacientes_novo">novo paciente</string>
+    <string name="activity_tela_lista_pacientes_cadastrados">Pacientes cadastrados</string>
+
+    <string name="activity_tela_cadastro_paciente_dados_pessoais">Dados Pessoais</string>
+    <string name="activity_tela_cadastro_paciente_nome">Nome</string>
+    <string name="activity_tela_cadastro_paciente_Telefone">Telefone</string>
+    <string name="activity_tela_cadastro_paciente_cpf">CPF</string>
+    <string name="activity_tela_cadastro_paciente_endereco">Endereço</string>
+    <string name="activity_tela_cadastro_paciente_data_nascimento">Data de nascimento</string>
+    <string name="activity_tela_cadastro_paciente_historico">Histórico familiar</string>
+    <string name="activity_tela_cadastro_paciente_salvar">Salvar</string>
+
+
+
+
+</resources>

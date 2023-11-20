@@ -13,14 +13,19 @@
     <string name="activity_tela_lista_pacientes_novo">novo paciente</string>
     <string name="activity_tela_lista_pacientes_cadastrados">Pacientes cadastrados</string>
 
-    <string name="activity_tela_cadastro_paciente_dados_pessoais">Dados Pessoais</string>
+    <string name="activity_tela_cadastro_paciente_dados_pessoais">Dados do paciente</string>
     <string name="activity_tela_cadastro_paciente_nome">Nome</string>
-    <string name="activity_tela_cadastro_paciente_Telefone">Telefone</string>
-    <string name="activity_tela_cadastro_paciente_cpf">CPF</string>
-    <string name="activity_tela_cadastro_paciente_endereco">Endereço</string>
-    <string name="activity_tela_cadastro_paciente_data_nascimento">Data de nascimento</string>
     <string name="activity_tela_cadastro_paciente_historico">Histórico familiar</string>
+    <string name="activity_tela_cadastro_paciente_dados_medicamento">Dados do medicamento</string>
+    <string name="activity_tela_cadastro_paciente_medicamento">Nome</string>
+    <string name="activity_tela_cadastro_paciente_quantidade_medicamento">Quantidade</string>
+    <string name="activity_tela_cadastro_paciente_periodo_medicamento">Período</string>
+    <string name="activity_tela_cadastro_paciente_intervalo_medicamento">Intervalo</string>
     <string name="activity_tela_cadastro_paciente_salvar">Salvar</string>
+
+
+    
+    
 
 
 

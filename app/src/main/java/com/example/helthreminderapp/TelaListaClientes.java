@@ -13,7 +13,6 @@ public class TelaListaClientes extends AppCompatActivity {
 
     ListView listapacientes;
 
-    Button novoPaciente;
 
 
     @Override
@@ -23,14 +22,6 @@ public class TelaListaClientes extends AppCompatActivity {
 
         listapacientes = (ListView) findViewById(R.id.ListViewListaPacientes);
 
-        novoPaciente = (Button) findViewById(R.id.buttonListaNovoPaciente);
-
-        novoPaciente.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(TelaListaClientes.this, AreaCadastroCliente.class));
-            }
-        });
 
         String [] pacientes = new String[]{"Yan Felipe","Marcos Aurélio","Felipe Sousa"};
 

@@ -10,9 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HelthReminderApp">
         <activity
-            android:name=".AreaCadastroCliente"
-            android:exported="false" />
-        <activity
             android:name=".TelaCadastroPaciente"
             android:exported="false" />
         <activity

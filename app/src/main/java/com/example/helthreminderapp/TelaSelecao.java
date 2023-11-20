@@ -11,7 +11,7 @@ public class TelaSelecao extends AppCompatActivity {
 
     Button pacientes;
 
-
+    Button novoPaciente;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +24,15 @@ public class TelaSelecao extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(TelaSelecao.this, TelaListaClientes.class));
+            }
+        });
+
+        novoPaciente = (Button) findViewById(R.id.cadastroPaciente);
+
+        novoPaciente.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(TelaSelecao.this, TelaCadastroPaciente.class));
             }
         });
 

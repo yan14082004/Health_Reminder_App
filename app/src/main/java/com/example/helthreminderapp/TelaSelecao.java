@@ -9,36 +9,21 @@ import android.widget.Button;
 
 public class TelaSelecao extends AppCompatActivity {
 
-    Button pacientes;
-
-    Button novoPaciente;
+    Button Pacientes;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_selecao);
 
-        pacientes = (Button) findViewById(R.id.buttonSelecaoPaciente);
+        Pacientes = (Button) findViewById(R.id.buttonSelecaoPaciente);
 
-        pacientes.setOnClickListener(new View.OnClickListener() {
+        Pacientes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(TelaSelecao.this, TelaListaClientes.class));
+                startActivity(new Intent(TelaSelecao.this, TelaListaPacientes.class));
             }
         });
-
-        novoPaciente = (Button) findViewById(R.id.cadastroPaciente);
-
-        novoPaciente.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(TelaSelecao.this, TelaCadastroPaciente.class));
-            }
-        });
-
-
-
-
 
     }
 }

@@ -10,10 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HelthReminderApp">
         <activity
-            android:name=".TelaCadastroPaciente"
-            android:exported="false" />
-        <activity
-            android:name=".TelaListaClientes"
+            android:name=".TelaListaPacientes"
             android:exported="false" />
         <activity
             android:name=".TelaSelecao"

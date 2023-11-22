@@ -13,15 +13,37 @@
     <string name="activity_tela_lista_pacientes_novo">novo paciente</string>
     <string name="activity_tela_lista_pacientes_cadastrados">Pacientes cadastrados</string>
 
-    <string name="activity_tela_cadastro_paciente_dados_pessoais">Dados do paciente</string>
     <string name="activity_tela_cadastro_paciente_nome">Nome</string>
-    <string name="activity_tela_cadastro_paciente_historico">Histórico familiar</string>
-    <string name="activity_tela_cadastro_paciente_dados_medicamento">Dados do medicamento</string>
-    <string name="activity_tela_cadastro_paciente_medicamento">Nome</string>
-    <string name="activity_tela_cadastro_paciente_quantidade_medicamento">Quantidade</string>
-    <string name="activity_tela_cadastro_paciente_periodo_medicamento">Período</string>
-    <string name="activity_tela_cadastro_paciente_intervalo_medicamento">Intervalo</string>
+    <string name="activity_tela_cadastro_paciente_medicamento">Nome do medicamento</string>
+    <string name="activity_tela_cadastro_paciente_periodo_medicamento">Período da medicação</string>
+    <string-array name="activity_tela_cadastro_paciente_periodo_lista">
+        <item>1 dia</item>
+        <item>2 dias</item>
+        <item>3 dias</item>
+        <item>4 dias</item>
+        <item>5 dias</item>
+        <item>6 dias</item>
+        <item>1 semana</item>
+        <item>2 semanas</item>
+        <item>3 semanas</item>
+        <item>1 mês</item>
+        <item>2 meses</item>
+        <item>3 meses</item>
+        <item>permanente ou até atualizar</item>
+    </string-array>
+    <string name="activity_tela_cadastro_paciente_intervalo">Intervalo da medicação</string>
+    <string-array name="activity_tela_cadastro_paciente_intervalo_lista">
+        <item>6 em 6 horas</item>
+        <item>8 em 8 horas</item>
+        <item>12 em 12 horas</item>
+        <item>1 vez ao dia</item>
+    </string-array>
     <string name="activity_tela_cadastro_paciente_salvar">Salvar</string>
+    <string name="activity_tela_cadastro_paciente_excluir">excluir</string>
+    <string name="activity_tela_cadastro_paciente_salvo_com_sucesso">Paciente salvo com sucesso</string>
+    <string name="activity_tela_cadastro_paciente_erro_ao_salvar">Erro ao salvar Paciente</string>
+    <string name="activity_tela_cadastro_paciente_campos_vazios">Favor preencher todos os campos</string>
+
 
 
     

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editTextTelaCadastroPacienteNome" type="id">10000</item>
+    <item name="editTextTelaCadastroRacoesQuantidade" type="id">10000</item>
+    <item name="spinnerTelcCadastroRacoesTipo" type="id">10000</item>
+    <item name="spinnerTelaCadastroRacoesPorte" type="id">10000</item>
+</resources>

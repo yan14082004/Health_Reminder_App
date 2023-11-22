@@ -9,12 +9,6 @@
     tools:context=".TelaCadastroPaciente">
 
     <TextView
-        android:id="@+id/textView13"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/activity_tela_cadastro_paciente_dados_pessoais" />
-
-    <TextView
         android:id="@+id/textView14"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -29,29 +23,6 @@
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:text="Name" />
-
-    <TextView
-        android:id="@+id/textView19"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="@string/activity_tela_cadastro_paciente_historico" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName12"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:minHeight="48dp"
-        android:text="Name" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:text="@string/activity_tela_cadastro_paciente_dados_medicamento" />
 
     <TextView
         android:id="@+id/textView9"
@@ -70,57 +41,38 @@
         android:text="Name" />
 
     <TextView
-        android:id="@+id/textView15"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="@string/activity_tela_cadastro_paciente_quantidade_medicamento" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:minHeight="48dp"
-        android:text="Name" />
-
-    <TextView
         android:id="@+id/textView16"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="@string/activity_tela_cadastro_paciente_periodo_medicamento" />
 
-    <EditText
-        android:id="@+id/editTextTextPersonName6"
+    <Spinner
+        android:id="@+id/spinner2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:minHeight="48dp"
-        android:text="Name" />
+        android:entries="@array/activity_tela_cadastro_paciente_periodo_lista"
+        android:minHeight="48dp" />
 
     <TextView
         android:id="@+id/textView17"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="@string/activity_tela_cadastro_paciente_intervalo_medicamento" />
+        android:text="@string/activity_tela_cadastro_paciente_intervalo" />
 
-    <EditText
-        android:id="@+id/editTextTextPersonName8"
+    <Spinner
+        android:id="@+id/spinner3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:minHeight="48dp"
-        android:text="Name" />
+        android:entries="@array/activity_tela_cadastro_paciente_intervalo_lista"
+        android:minHeight="48dp" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
         android:text="@string/activity_tela_cadastro_paciente_salvar" />
 
 </LinearLayout>

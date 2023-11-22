@@ -6,7 +6,13 @@
     android:layout_height="match_parent"
     android:layout_margin="30dp"
     android:orientation="vertical"
-    tools:context=".TelaListaClientes">
+    tools:context=".TelaListaPacientes">
+
+    <Button
+        android:id="@+id/buttonListaNovoPaciente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_tela_selecao_cadastro" />
 
     <TextView
         android:id="@+id/textView10"
@@ -19,5 +25,11 @@
         android:id="@+id/ListViewListaPacientes"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
 
 </LinearLayout>

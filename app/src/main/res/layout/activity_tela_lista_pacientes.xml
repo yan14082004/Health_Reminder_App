@@ -6,30 +6,24 @@
     android:layout_height="match_parent"
     android:layout_margin="30dp"
     android:orientation="vertical"
-    tools:context=".TelaListaPacientes">
+    tools:context=".TelaListaPaciente">
 
     <Button
-        android:id="@+id/buttonListaNovoPaciente"
+        android:id="@+id/buttonListaNovaRacao"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/activity_tela_selecao_cadastro" />
+        android:text="@string/activity_tela_lista_pacientes_novo" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/textView4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="@string/activity_tela_lista_pacientes_cadastrados" />
+        android:text="@string/actigity_tela_lista_pacientes_cadastrados" />
 
     <ListView
-        android:id="@+id/ListViewListaPacientes"
+        android:id="@+id/ListViewListaRacoes"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button" />
 
 </LinearLayout>

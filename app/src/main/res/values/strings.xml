@@ -1,21 +1,20 @@
 <resources>
-    <string name="app_name">Health Reminder App</string>
+    <string name="app_name">Health Reminder</string>
     <string name="activity_main_usuario">Usuário</string>
-    <string name="activity_main_senha">senha</string>
+    <string name="activity_main_senha">Senha</string>
     <string name="activity_main_entrar">Entrar</string>
-    <string name="activity_main_cadastrar">Cadastrar-se</string>
-    <string name="activity_main_esqueci_a_senha">Esqueci a Senha</string>
-    <string name="activity_main_falha_autenticacao">Usuário ou senha incorreto!</string>
+    <string name="activity_main_falha_autenticacao">Usuário ou senha incorretos</string>
+    <string name="activity_main_esqueci">Esqueci a senha</string>
+    <string name="activity_main_cadastrar">Cadastrar senha</string>
 
-    <string name="activity_tela_selecao_cadastro">Cadastrar Paciente</string>
-    <string name="activity_tela_selecao_listar">Ver Pacientes</string>
+    <string name="activity_tela_selecao">Ver pacientes</string>
 
-    <string name="activity_tela_lista_pacientes_novo">novo paciente</string>
-    <string name="activity_tela_lista_pacientes_cadastrados">Pacientes cadastrados</string>
+    <string name="activity_tela_lista_pacientes_novo">Novo paciente</string>
+    <string name="actigity_tela_lista_pacientes_cadastrados">Pacientes cadastrados</string>
 
-    <string name="activity_tela_cadastro_paciente_nome">Nome</string>
-    <string name="activity_tela_cadastro_paciente_medicamento">Nome do medicamento</string>
-    <string name="activity_tela_cadastro_paciente_periodo_medicamento">Período da medicação</string>
+    <string name="activity_tela_cadastro_paciente_nome">Nome do paciente</string>
+    <string name="activity_tela_cadastro_paciente_nome_medicamento">Nome do medicamento</string>
+    <string name="activity_tela_cadastro_paciente_periodo">Período de uso da medicação</string>
     <string-array name="activity_tela_cadastro_paciente_periodo_lista">
         <item>1 dia</item>
         <item>2 dias</item>
@@ -29,7 +28,8 @@
         <item>1 mês</item>
         <item>2 meses</item>
         <item>3 meses</item>
-        <item>permanente ou até atualizar</item>
+        <item>4 meses</item>
+        <item>permanentemente ou até atualizar</item>
     </string-array>
     <string name="activity_tela_cadastro_paciente_intervalo">Intervalo da medicação</string>
     <string-array name="activity_tela_cadastro_paciente_intervalo_lista">
@@ -39,17 +39,10 @@
         <item>1 vez ao dia</item>
     </string-array>
     <string name="activity_tela_cadastro_paciente_salvar">Salvar</string>
-    <string name="activity_tela_cadastro_paciente_excluir">excluir</string>
-    <string name="activity_tela_cadastro_paciente_salvo_com_sucesso">Paciente salvo com sucesso</string>
-    <string name="activity_tela_cadastro_paciente_erro_ao_salvar">Erro ao salvar Paciente</string>
+    <string name="activity_tela_cadastro_paciente_excluir">Excluir</string>
+    <string name="activity_tela_cadastro_paciente_salvo_com_sucesso">paciente salvo com sucesso</string>
+    <string name="activity_tela_cadastro_paciente_erro_ao_salvar">Erro ao salvar paciente</string>
     <string name="activity_tela_cadastro_paciente_campos_vazios">Favor preencher todos os campos</string>
-
-
-
-    
-    
-
-
 
 
 </resources>

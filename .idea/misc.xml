@@ -3,13 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/202204190151/StudioProjects/Health_Reminder_App/app/src/main/res/layout/activity_tela_cadastro_paciente.xml" value="0.33" />
-        <entry key="..\:/Users/202204190151/StudioProjects/Health_Reminder_App/app/src/main/res/layout/activity_tela_lista_pacientes.xml" value="0.33" />
-        <entry key="..\:/Users/202204190151/StudioProjects/Health_Reminder_App/app/src/main/res/layout/activity_tela_selecao.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/202204190151/StudioProjects/powerup_pupfeeder/app/src/main/res/layout/activity_tela_cadastro_paciente.xml" value="0.33" />
+        <entry key="..\:/Users/202204190151/StudioProjects/powerup_pupfeeder/app/src/main/res/layout/activity_tela_lista_pacientes.xml" value="0.22" />
+        <entry key="..\:/Users/202204190151/StudioProjects/powerup_pupfeeder/app/src/main/res/layout/activity_tela_selecao.xml" value="0.18854166666666666" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

@@ -5,23 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginStart="30dp"
+    android:layout_marginTop="250dp"
     android:layout_marginEnd="30dp"
     android:orientation="vertical"
     tools:context=".TelaSelecao">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:text="Selecione uma opção" />
-
     <Button
-        android:id="@+id/buttonSelecaoPaciente"
+        android:id="@+id/buttonSelecaoRacao"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:layout_marginTop="20dp"
-        android:drawableLeft="@mipmap/ic_lista_pacientes_foreground"
-        android:text="@string/activity_tela_selecao_listar" />
+        android:layout_height="90dp"
+        android:text="@string/activity_tela_selecao"
+        app:icon="@mipmap/ic_listagem_foreground"
+        app:iconGravity="start"
+        app:iconSize="80dp" />
 </LinearLayout>

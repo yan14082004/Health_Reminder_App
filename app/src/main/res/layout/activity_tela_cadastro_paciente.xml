@@ -9,70 +9,72 @@
     tools:context=".TelaCadastroPaciente">
 
     <TextView
-        android:id="@+id/textView14"
+        android:id="@+id/textView6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
         android:text="@string/activity_tela_cadastro_paciente_nome" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName7"
+        android:id="@+id/editTextTelaCadstroRacoesMarca"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/textView7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/activity_tela_cadastro_paciente_nome_medicamento" />
+
+    <EditText
+        android:id="@+id/editTextTelaCadastroRacoesQuantidade"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:minHeight="48dp"
+        android:inputType="text"
         android:text="Name" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/activity_tela_cadastro_paciente_periodo" />
+
+    <Spinner
+        android:id="@+id/spinnerTelcCadastroRacoesTipo"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:entries="@array/activity_tela_cadastro_paciente_periodo_lista" />
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="@string/activity_tela_cadastro_paciente_medicamento" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:minHeight="48dp"
-        android:text="Name" />
-
-    <TextView
-        android:id="@+id/textView16"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="@string/activity_tela_cadastro_paciente_periodo_medicamento" />
-
-    <Spinner
-        android:id="@+id/spinner2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:entries="@array/activity_tela_cadastro_paciente_periodo_lista"
-        android:minHeight="48dp" />
-
-    <TextView
-        android:id="@+id/textView17"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
         android:text="@string/activity_tela_cadastro_paciente_intervalo" />
 
     <Spinner
-        android:id="@+id/spinner3"
+        android:id="@+id/spinnerTelaCadastroRacoesPorte"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:entries="@array/activity_tela_cadastro_paciente_intervalo_lista"
-        android:minHeight="48dp" />
+        android:layout_height="48dp"
+        android:entries="@array/activity_tela_cadastro_paciente_intervalo_lista" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonTelaCadastroRacoesSalvar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="@string/activity_tela_cadastro_paciente_salvar" />
+        android:text="@string/activity_tela_cadastro_paciente_salvar"
+        app:toggleCheckedStateOnClick="false" />
 
+    <Button
+        android:id="@+id/buttonTelaCadastroRacoesExcluir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/activity_tela_cadastro_paciente_excluir" />
 </LinearLayout>
